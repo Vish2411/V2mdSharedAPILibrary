@@ -21,7 +21,7 @@ public class WebServiceData: NSObject {
     public static var shared : WebServiceData {
         return instance
     }
-    
+
 //    public var baseURL = getBaseURL()
     public var ischangePasswordAPI = false
     public var retryCount : Int = 2

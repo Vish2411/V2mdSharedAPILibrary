@@ -13,7 +13,6 @@
 /* Begin PBXFileReference section */
 		462E8D53C3F3B0B9B7C50065 /* Pods_V2mdSharedAPILibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_V2mdSharedAPILibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE32FD42DA7977D003896D9 /* V2mdSharedAPILibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = V2mdSharedAPILibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BE32FE32DA79819003896D9 /* WebServiceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceData.swift; sourceTree = "<group>"; };
 		8EDE2989912A4311FD616167 /* Pods-V2mdSharedAPILibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V2mdSharedAPILibrary.debug.xcconfig"; path = "Target Support Files/Pods-V2mdSharedAPILibrary/Pods-V2mdSharedAPILibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		F4C7109AFAB6839DC15DBB7E /* Pods-V2mdSharedAPILibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V2mdSharedAPILibrary.release.xcconfig"; path = "Target Support Files/Pods-V2mdSharedAPILibrary/Pods-V2mdSharedAPILibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +56,6 @@
 				8EDE2989912A4311FD616167 /* Pods-V2mdSharedAPILibrary.debug.xcconfig */,
 				F4C7109AFAB6839DC15DBB7E /* Pods-V2mdSharedAPILibrary.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -65,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				8BE32FD62DA7977D003896D9 /* V2mdSharedAPILibrary */,
-				8BE32FE12DA797D4003896D9 /* Networking */,
 				8BE32FD52DA7977D003896D9 /* Products */,
 				5B9FC18D44F464534ED7F021 /* Pods */,
 				C4EEE9D5ADAFC1B95079C592 /* Frameworks */,
@@ -78,22 +75,6 @@
 				8BE32FD42DA7977D003896D9 /* V2mdSharedAPILibrary.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8BE32FE12DA797D4003896D9 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				8BE32FE22DA797FF003896D9 /* Service */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		8BE32FE22DA797FF003896D9 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				8BE32FE32DA79819003896D9 /* WebServiceData.swift */,
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 		C4EEE9D5ADAFC1B95079C592 /* Frameworks */ = {
